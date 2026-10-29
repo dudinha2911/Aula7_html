@@ -1,0 +1,133 @@
+html{
+    scroll-behavior: smooth;
+} 
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001344;
+    background-color: azure;
+}
+
+/* Cabeçalho */
+.topo{
+    background-color: #001344;
+    color: white;
+    padding: 24px;
+}
+
+.topo h1{
+    margin-bottom: 8px;
+}
+
+.menu-horizontal ul{
+    display: flex;
+    gap: 8px;
+    padding: 0px;
+    list-style: none;
+}
+
+.menu-horizontal a{
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+
+.menu-horizontal a:hover{
+    background-color: slateblue;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.pagina{
+    display: flex;
+    align-items: flex-start;
+    max-width: 1050px;
+    margin: 24px auto;
+}
+
+.menu-lateral{
+    width: 205px;
+    background-color: #E4EBF5;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.menu-lateral h2{
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.menu-lateral ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lateral a{
+    display: block;
+    padding: 12px 10px;
+    color: #001344;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.menu-lateral a:hover{
+    background-color: slateblue;
+    box-shadow: 5px 5px 5px #001344;
+}
+
+.conteudo{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.section{
+    padding: 20px;
+    margin-bottom: 16px;
+    background-color: white;
+    border: 1px solid slateblue;
+    border-radius: 8px;
+    color: #001344;
+}
+
+.imagem{
+    border: 2px solid slateblue;
+    border-radius: 4px;
+}
+
+.lista-conteudo{
+    font-size: 18px;
+    list-style: upper-roman;
+}
+
+table{
+    width: 100%;
+}
+
+th, td{
+    border: 1px solid #001344;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #E4EBF5;
+}
+
+.link{
+    background-color: #001344;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.link:hover{
+    background-color: slateblue ;
+}
