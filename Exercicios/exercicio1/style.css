@@ -1,0 +1,164 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: #800000 gold;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #4a0000;
+    background-image: url("retro.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Cabeçalho */
+.topo {
+    background-color: #800000;
+    color: gold;
+    padding: 24px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topo h1 {
+    margin-bottom: 8px;
+}
+
+.menu-horizontal ul {
+    display: flex;
+    gap: 8px;
+    padding: 0px;
+    list-style: none;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu-horizontal a {
+    display: block;
+    background-color: #5a0000;
+    color: gold;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.menu-horizontal a:hover {
+    background-color: gold;
+    color: #800000;
+    cursor: pointer;
+}
+
+.menu-horizontal .submenu {
+    display: none;
+}
+
+.menu-horizontal li:hover .submenu {
+    display: block;
+}
+
+.pagina {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1050px;
+    margin: 24px auto;
+}
+
+.menu-lateral {
+    width: 205px;
+    background-color: #800000;
+    padding: 14px;
+    border-radius: 8px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu-lateral h2 {
+    text-align: center;
+    padding-bottom: 8px;
+    color: gold;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lateral a {
+    display: block;
+    padding: 12px 10px;
+    color: gold;
+    text-decoration: none;
+    background-color: #5a0000;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-lateral a:hover {
+    background-color: #876c00;
+}
+
+.conteudo {
+    flex: 1;
+    margin-left: 20px;
+}
+
+img{
+    width: 400px;
+}
+.section {
+    padding: 20px;
+    margin-bottom: 16px;
+    background-color: #800000;
+    border: 1px solid gold;
+    border-radius: 8px;
+    color: gold;
+}
+
+.imagem {
+    border: 2px solid gold;
+    border-radius: 4px;
+}
+
+.lista-conteudo {
+    font-size: 18px;
+    list-style: upper-roman;
+}
+
+.link {
+    display: inline-block;
+    background-color: gold;
+    color: #4a0000;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.link:hover {
+    background-color: #4a0000;
+    color: gold;
+}
+
+footer{
+    text-align: center;
+}
+
+.fav figcaption{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid gold;
+    margin: 20px;
+}
+
+.fav img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gold;
+}
